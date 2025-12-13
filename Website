@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoGuard | Pollution Control Initiative</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importing Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Eco<span class="highlight">Guard</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#media">Media Gallery</a></li>
+            <li><a href="#contact" class="btn-nav">Join Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Stop Pollution. <br>Save Implementation.</h1>
+            <p>The Earth is what we all have in common. Let's protect our air, water, and soil before it's too late.</p>
+            <a href="#about" class="btn-main">Learn More</a>
+        </div>
+    </header>
+
+    <!-- Info Section with Audio -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Why It Matters</h2>
+            <div class="about-grid">
+                <div class="text-box">
+                    <h3>The Silent Threat</h3>
+                    <p>Pollution is the introduction of harmful materials into the environment. These harmful materials are called pollutants. Pollution damages the quality of air, water, and land, posing a serious threat to human health and wildlife.</p>
+                    
+                    <div class="audio-container">
+                        <p><strong>🎧 Listen:</strong> The sound of a clean forest (Nature's Goal)</p>
+                        <!-- Sample Audio File -->
+                        <audio controls>
+                            <source src="https://assets.mixkit.co/sfx/preview/mixkit-forest-birds-singing-1212.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+                <div class="image-box">
+                    <img src="https://images.unsplash.com/photo-1611273426728-c009d9b8d721?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pollution Contrast">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="types-section">
+        <div class="container">
+            <h2 class="section-title">Types of Pollution</h2>
+            <div class="card-grid">
+                <!-- Card 1 -->
+                <div class="card">
+                    <i class="fa-solid fa-smog"></i>
+                    <h3>Air Pollution</h3>
+                    <p>Caused by solid and liquid particles and certain gases that are suspended in the air.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <i class="fa-solid fa-water"></i>
+                    <h3>Water Pollution</h3>
+                    <p>The contamination of water bodies, usually as a result of human activities.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <i class="fa-solid fa-recycle"></i>
+                    <h3>Plastic Waste</h3>
+                    <p>Accumulation of plastic objects in the Earth's environment that adversely affects wildlife.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Section (Video & Photos) -->
+    <section id="media" class="section-padding media-bg">
+        <div class="container">
+            <h2 class="section-title">Awareness Gallery</h2>
+            
+            <!-- Video Container -->
+            <div class="video-wrapper">
+                <h3>Educate Yourself</h3>
+                <!-- Using a placeholder video link. Replace src with your local file or YouTube embed -->
+                <video controls poster="https://images.unsplash.com/photo-1497436072909-60f360e1d4b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80">
+                    <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="caption">Watch: Nature's beauty worth fighting for.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8facy0nK8Lw?si=3yXDGWto6AVJisvx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <hr>
+            <!-- Photo Grid -->
+            <div class="photo-gallery">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Factory Smoke">
+                    <div class="overlay">Industrial Waste</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1621451537084-482c73073a0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Plastic in Ocean">
+                    <div class="overlay">Ocean Plastic</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Recycling">
+                    <div class="overlay">The Solution</div>
+                </div>    
+                <div class="gallery-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jAa58N4Jlos?si=4hKeBqeYBUtVkhqr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="overlay">The Solution Video</div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-about">
+                <h3>EcoGuard</h3>
+                <p>Together we can make the world green again.</p>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2023 EcoGuard Initiative. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
